@@ -48,5 +48,28 @@
 			</plugin>
 		</plugins>
 	</build>
+	 <distributionManagement>
+    <repository>
+      <id>maven-releases</id>
+      <name>maven-releases</name>
+      <url> <distributionManagement>
+    <repository>
+      <id>maven-releases</id>
+      <name>maven-releases</name>
+      <url>http://18.224.7.158:8081/repository/maven-releases//</url>
+    </repository>
+    <snapshotRepository>
+      <id>maven-snapshots</id>
+      <name>maven-snapshots</name>
+      <url>http://15.207.18.18:8081/repository/maven-snapshots/</url>
+    </snapshotRepository>
+</distributionManagement>/</url>
+    </repository>
+    <snapshotRepository>
+      <id>maven-snapshots</id>
+      <name>maven-snapshots</name>
+      <url>http://18.224.7.158:8081/repository/maven-snapshots//</url>
+    </snapshotRepository>
+</distributionManagement>
 
 </project>
